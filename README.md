@@ -20,27 +20,46 @@ A collection of examples
     - Quick Sort
     - Heap Sort
     - Radix Sort
+- Data Structures
+  - Singly Linked Lists
+  - Doubly Linked Lists
+  - Stacks
+  - Queues
+  - Binary Search Trees
+    - Tree Traversal
+  - Binary Heaps
+  - Hash Tables
+  - Graphs
+    - Graph Traversal
+- Dijkstra's Algorithm
+- Dynamic Programming
 
-## Additional Notes for self study
+## To-do
 
-1. DFS
+[ ] - Add unit test cases for Algorithms
 
-2. BFS
+[ ] - Clean up code comments
 
-3. Matching Parenthesis problem
+[ ] - Add README for every section
 
-4. Using Hash Tables
+## Additional Pointers to focus on studying
 
-5. Variables/Pointers manipulation
+1. Depth First Search
 
-6. reverse linked list (duplicates , removing duplicates)
+2. Breath First Search
 
-7. sorting fundamentals (quicksort, mergesort,bubblesort techniques ,
+3. Binary search
 
-   runtime of a sort,time space complexity)
+4. Matching Parenthesis
 
-8. Recursion
+5. Hash Tables
 
-9. custom data structures (object oriented programming)
+6. Variables/Pointers manipulation
 
-10. Binary search
+7. Reverse linked list (duplicates , removing duplicates)
+
+8. Sorting fundamentals (quicksort, mergesort, bubblesort techniques, runtime of a sort, time space complexity)
+
+9. Recursion
+
+10. Custom Data Structures (OOP, Stacks, Heaps, Queue, Linked Lists, Binary Trees)
