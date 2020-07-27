@@ -62,6 +62,8 @@ function KnuthMorrisPratt(txt, pat) {
       textIndex += 1;
     }
   }
+
+  return -1;
 }
 
 const index = KnuthMorrisPratt("adsgwadsgxdsgwadsgz", "dsgwadsgz");
