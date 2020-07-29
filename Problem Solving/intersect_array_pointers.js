@@ -32,3 +32,5 @@ function intersect(nums1, nums2) {
 
   return list;
 }
+
+intersect([4, 9, 5], [9, 4, 9, 8, 4]); // [4, 9] or [9, 4]
