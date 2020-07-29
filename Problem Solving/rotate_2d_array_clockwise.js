@@ -21,6 +21,7 @@ function rotate(matrix) {
     }
   }
 
+  // Swap first column and last column
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < n / 2; j++) {
       let temp = matrix[i][j];
