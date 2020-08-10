@@ -8,22 +8,20 @@
  */
 function maxIncrease(data) {
   let min = Infinity;
-  let minIdx = 0;
-  let max = -Infinity;
+  let maxIncrement = 0;
+
   for (let i = 0; i < data.length; i++) {
     if (data[i] < min) {
       min = data[i];
-      minIdx = i;
-    }
-    if (data[i] > max && i > minIdx) {
-      max = data[i];
+    } else if (data[i] - min > maxIncrement) {
+      maxIncrement = data[i] - min;
     }
   }
 
-  return Math.max(max, 1) - min;
+  return maxIncrement;
 }
 
 let res = maxIncrease([3, 2, 1]);
-let res2 = maxIncrease([10, 3, 4, 6, 7, 12, 5]);
+let res2 = maxIncrease([7, 1, 5, 3, 6, 4]);
 console.log(res);
 console.log(res2);
